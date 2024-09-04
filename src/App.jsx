@@ -15,6 +15,7 @@ import TrustDonation from './Components/Trust/TrustDonation';
 import TrustContactUs from './Components/Trust/TrustContactUs';
 import TrustHeader from './Components/Trust/TrustHeader';
 import TrustGallary from './Components/Trust/TrustGallery/TrustGallary';
+import TrustAboutUs from './Components/Trust/trusAboutUs/TrusAboutUs';
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
         <Route path='/trustGallary' element={<TrustGallary />} />
         <Route path="/trustDonation" element={<TrustDonation />} />
         <Route path="/trustContactUs" element={<TrustContactUs />} />
+        <Route path='/trustAboutUs' element={<TrustAboutUs />} />
       </Routes>
       <Footer />
     </Router>

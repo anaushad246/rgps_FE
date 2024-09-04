@@ -36,6 +36,8 @@ function TrustMenu() {
         <Link to="/" className="text-white hover:text-gray-200">Home</Link>
         <Link to="/trustEvents" className="text-white hover:text-gray-200">Events</Link>
         <Link to="/trustGallary" className="text-white hover:text-gray-200">Gallary</Link>
+        <Link to="/trustAboutUs" className="text-white hover:text-gray-200">About Us</Link>
+
         <Link to="/trustDonation" className="text-white hover:text-gray-200">Donation</Link>
         <Link to="/trustContactUs" className="text-white hover:text-gray-200">Contact Us</Link>
       </div>
@@ -64,6 +66,8 @@ function TrustMenu() {
           </button>
           <Link to="/" className="block px-4 py-2 hover:bg-gray-700" onClick={handleMobileMenuClose}>Home</Link>
           <Link to="/trustGallary" className="block px-4 py-2 hover:bg-gray-700" onClick={handleMobileMenuClose}>Gallary</Link>
+          <Link to="/trustAboutUs" className="block px-4 py-2 hover:bg-gray-700" onClick={handleMobileMenuClose}>About Us</Link>
+
           <Link to="/trustEvents" className="block px-4 py-2 hover:bg-gray-700" onClick={handleMobileMenuClose}>Events</Link>
           <Link to="/trustDonation" className="block px-4 py-2 hover:bg-gray-700" onClick={handleMobileMenuClose}>Donation</Link>
           <Link to="/trustContactUs" className="block px-4 py-2 hover:bg-gray-700" onClick={handleMobileMenuClose}>Contact Us</Link>
